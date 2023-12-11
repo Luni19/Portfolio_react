@@ -1,9 +1,9 @@
-import vk from "../../../images/icons/vk.svg"
-import twitter from "../../../images/icons/twitter.svg"
-import lk from "../../../images/icons/linkedIn.svg"
-import inst from "../../../images/icons/instagram.svg"
-import github from "../../../images/icons/gitHub.svg"
-
+import vk from "../../images/icons/vk.svg"
+import twitter from "../../images/icons/twitter.svg"
+import lk from "../../images/icons/linkedIn.svg"
+import inst from "../../images/icons/instagram.svg"
+import github from "../../images/icons/gitHub.svg"
+import "./style.css"
 
 
 
