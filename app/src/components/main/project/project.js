@@ -6,7 +6,7 @@ function Project ({tittle, img}) {
     return(
        <li className="project">
           <a href="">
-            <img src={img}  className="project-img"/>
+            <img src={img} alt={tittle} className="project-img"/>
             <h3 className="project-tittle">{tittle}</h3>
           </a>
         </li>

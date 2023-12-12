@@ -20,11 +20,9 @@ function main (){
     <div className="conteiner">
         <h2 className="projects-text">Projects</h2>
         <ul className="projects">
-            <Project/>
+        
             {projects.map((project) => {
-                return <Project tittle ={project.tittle} img={project.img}/>
-                
-
+                return <Project tittle ={project.title} img={project.img}/>
             })
             }
            

@@ -1,12 +1,11 @@
+import BtnGitHub from "../components/BtnGH"
 import projectBig2 from "../images/projects/02-big.jpg"
-import GHBlack from "../images/icons/gitHub-black.svg"
 
 
 
-
-function Projects (props) {
+function Projects () {
     return(
-        <div>
+       
              <main>
         <section className="project-section">
             <div className="conteiner">
@@ -16,16 +15,13 @@ function Projects (props) {
              
                 <img className="project-image-details" src={projectBig2} alt=""/>
                     <p className="skils-text">Skills: React, Node.js, MongoDB</p>
-                <a href="" className="git-button">
-                    <img src={GHBlack} alt=""/>
-                    GitHub repo
-                </a>
+                <BtnGitHub link="https://github.com"/>
              </div>
             </div>
         </section>
 
     </main>
-        </div>
+
   )
 }
 
