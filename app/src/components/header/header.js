@@ -16,12 +16,13 @@ function header () {
             </NavLink>
             <ul className="nav-list">
                 
-
-
-                
-          
                 <li className="nav-list-item">
                     <NavLink to="/" className={({isActive}) => isActive ? activeLink : normalLink}>
+                    Home </NavLink>
+                    </li>
+          
+                <li className="nav-list-item">
+                    <NavLink to="../../projects" className={({isActive}) => isActive ? activeLink : normalLink}>
                     Projects </NavLink>
                     </li>
                     
@@ -35,7 +36,6 @@ function header () {
                 <NavLink to="/Contacts" className={({isActive}) => isActive ? activeLink : normalLink}>
                     Contacts </NavLink>
                     </li>
-    
             </ul>
         </div>
        </div>

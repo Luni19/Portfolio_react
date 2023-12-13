@@ -1,7 +1,4 @@
 import "./style.css"
-import Project from "./project/project.js"
-
-import { projects } from "../../helpers/projectsList.js"
 
 function main (){
     return (
@@ -15,27 +12,6 @@ function main (){
         <a className="cv-button" type="btn" href="">Download CV</a>
      </div>
 </section>
-
-<section className="project-section">
-    <div className="conteiner">
-        <h2 className="projects-text">Projects</h2>
-        <ul className="projects">
-        
-            {projects.map((project, index) => {
-                return (
-                <Project 
-                key={index}
-                title ={project.title} 
-                img={project.img}
-                index={index}/>
-                );
-            })
-            }
-           
-        </ul>
-    </div>
-</section>
-
 </main>
     )
 }
