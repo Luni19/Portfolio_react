@@ -21,8 +21,14 @@ function main (){
         <h2 className="projects-text">Projects</h2>
         <ul className="projects">
         
-            {projects.map((project) => {
-                return <Project tittle ={project.title} img={project.img}/>
+            {projects.map((project, index) => {
+                return (
+                <Project 
+                key={index}
+                title ={project.title} 
+                img={project.img}
+                index={index}/>
+                );
             })
             }
            

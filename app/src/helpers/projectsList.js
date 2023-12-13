@@ -23,7 +23,7 @@ import Project06Big from "../images/projects/06-big.jpg"
 const projects = [
     {
 		title: 'Gaming streaming portal',
-		skills: 'React, Node.js, MongoDB',
+		skills: 'React, Node.js, MongoDB',	
 		img: Project01,
 		imgBig: Project01Big,
 		gitHubLink: 'https://github.com',
